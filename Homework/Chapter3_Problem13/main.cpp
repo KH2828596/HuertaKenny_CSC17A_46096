@@ -30,6 +30,7 @@ void convertCurrency(float dollar)
     tempY = dollar * YEN_PER_DOLLAR;
     tempU = dollar * EUROS_PER_DOLLAR;
     
+    cout << setprecision(2) << fixed << showpoint << endl;
     cout << dollar << " dollars in Euros is " << tempU << endl;
     cout << dollar << " dollars in Yen is " << tempY << endl;
     
